@@ -4,13 +4,15 @@ beamer-frederiksberg-ocean
 Beamer template for [Team Ocean at NBI](http://www.nbi.ku.dk/forskningsgrupper/Meteorologi_Oceanografi_og_Geodaesi/english/oceanography/) based on the Frederiksberg theme
 
 
-How to use this template
-------------------------
-Simply get a copy of this repository, either by downloading the [zip archive](https://github.com/j08lue/beamer-frederiksberg-ocean/archive/master.zip) or using git:
+Usage
+-----
+Get a copy of this repository, either by downloading the [zip archive](https://github.com/j08lue/beamer-frederiksberg-ocean/archive/master.zip) or via
 
     git clone https://github.com/j08lue/beamer-frederiksberg-ocean
 
-Rename the file `presentation_template.tex` to something meaningful and start adding your content - that is all.
+Rename the file `presentation_template.tex` to something meaningful and start adding your content. Comment in/out the different settings as needed.
+
+Change the files in the directory `input` too, if necessary, to take full advantage of the options available in [Frederiksberg](http://www.matdat.life.ku.dk/LaTeX/Frederiksberg/).
 
 
 Requirements
