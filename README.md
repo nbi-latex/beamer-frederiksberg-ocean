@@ -18,4 +18,4 @@ Change the files in the directory `input` too, if necessary, to take full advant
 Requirements
 ------------
 * The [Frederiksberg beamer theme](http://www.matdat.life.ku.dk/LaTeX/Frederiksberg/) -- Installation instructions can be found on their website.
-* A number of LaTeX packages, usually included with the major TeX distributions or easily installable.
+* A number of LaTeX packages, usually included with major TeX distributions or easily installable.
