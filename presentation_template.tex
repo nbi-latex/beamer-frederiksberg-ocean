@@ -1,0 +1,80 @@
+\documentclass[12pt,aspectratio=1610]{beamer}
+% adjust the aspect ratio to match the local hardware
+
+\input{input/frederiksberg_setup}
+
+\input{input/recommended_packages}
+
+%\input{input/biber_bibliography}
+%\bibliography{my_bibliography}
+
+% graphicx settings
+%\graphicspath{
+%	{some/path/where/my/figures/are/}
+%	{another/path/}
+%	}
+%\DeclareGraphicsExtensions{.pdf,.png,.jpg}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\title[Short Title]{Long Title}
+
+\author{My Name}
+	
+\institute{Climate and Geophysics, Team Ocean, Niels Bohr Institute}
+
+\date{\today}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+
+\frame[plain]{\titlepage}
+
+
+\section{First Section}
+
+
+\begin{frame}{Frame with text}
+\begin{itemize}[<+->]
+	\item items
+	\item that will pop up
+	\item one by one
+\end{itemize}
+\end{frame}
+
+
+\begin{frame}{Frame with figure}
+\begin{figure}
+\def\figheight{0.8\textheight}
+%\includegraphics[height=\figheight]{my_figure}
+%\caption{}
+\end{figure}
+\end{frame}
+
+
+\begin{frame}{Frame with text and figure to uncover}
+\begin{itemize}[<+->]
+	\item first item
+	\item second item
+\end{itemize}
+% figure will appear together with second item
+\setbeamercovered{invisible}{\uncover<2->{
+	\begin{figure}
+	%\includegraphics[width=0.5\linewidth,height=0.5\textheight,keepaspectratio]{my_figure}
+	%\caption{}
+	\end{figure}
+}}
+\end{frame}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%\begin{frame}[allowframebreaks=0.9]{References}
+%\printbibliography
+%\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\end{document}
