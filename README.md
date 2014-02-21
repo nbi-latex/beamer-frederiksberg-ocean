@@ -1,7 +1,7 @@
 beamer-frederiksberg-ocean
 ==========================
 
-Beamer template for ocean@nbi.ku.dk based on the Frederiksberg theme
+Beamer template for [Team Ocean at NBI](http://www.nbi.ku.dk/forskningsgrupper/Meteorologi_Oceanografi_og_Geodaesi/english/oceanography/) based on the Frederiksberg theme
 
 
 How to use this template
